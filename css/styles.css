@@ -1,0 +1,77 @@
+:root{
+    --primary-text-color:#757575;
+    --secondary-text-color:#212121;
+    --accent-color:#2196F3;
+    --primary-bg-color:#ffffff;
+    --secondary-bg-color:#2F303A;
+    --button-color:#F5F4FA;
+}
+
+body{
+    background-color:var(--primary-bg-color)
+    color: var(--primary-text-color);
+}
+/* колір основного тексту #757575 */
+/* вторинний колір тексту #212121*/
+/* основний колір фону #ffffff */
+/* вторинний колір фону  #2F303A*/
+/* акцент #2196F3 */
+
+ /* Site nav */
+.site-nav,
+.auth-nav
+{list-style: none;
+}
+.site-nav a{
+    color: var(--secondary-text-color);
+}
+.auth-nav a{
+    color: var(--primary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus{
+    color:var(--accent-color);
+}
+.auth-nav a:hover,
+.auth-nav a:focus{
+    color:var(--accent-color);
+}
+.site-nav a.link.current,
+.auth-nav a.link.current
+{color: var(--accent-color);
+}
+
+
+/* Hero */
+.hero-title{
+color: var(--primary-bg-color);
+background-color: var(--secondary-bg-color);
+}
+
+/* Section */
+.section-title{
+    color:var(--secondary-text-color);
+}
+
+/* Button */
+.button{
+
+}
+.button.primary{
+color: var(--primary-bg-color);
+background-color: var(--accent-color);
+}
+.button.secondary{
+color: var(--secondary-text-color);
+background-color:var(--button-color) ;
+}
+
+
+
+
+
+
+.page-footer{
+    background-color:var(--secondary-bg-color) ;
+}
